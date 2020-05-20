@@ -7,7 +7,8 @@ Graphics         Intel UHD Graphics 620
 Audio            Realtek ALC256
 Wi-Fi            Broadcom BCM94352Z (DELL DW1560)
 Storage          Intel 760P SSD 512G
-Monitor          FHD 1080P
+Monitor          FHD 1920x1080
+BIOS Verison     2.12.0
 macOS Version    Catalina 10.15.4
 Clover Version   5116
 ```
