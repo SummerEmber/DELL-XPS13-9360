@@ -51,7 +51,7 @@
 				<key>FixLAN</key>
 				<false/>
 				<key>FixMutex</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
 				<false/>
 				<key>FixRegions</key>
@@ -85,7 +85,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change _OSI to XOSI (Pair with SSDT-XOSI.aml)</string>
+					<string>Change _OSI to XOSI (SSDT-XOSI.aml)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -95,7 +95,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Rename BRT6 to BRTX (Use with SSDT-BRT6.aml, SSDT-PNLF.aml, AppleBacklightInjector.kext, and VoodooPS2Controller.kext to fix brightness keys)</string>
+					<string>Rename BRT6 to BRTX (SSDT-BRT6.aml, SSDT-PNLF.aml, AppleBacklightInjector.kext, VoodooPS2Controller.kext)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -105,7 +105,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change Method (GPRW,2,N) to XPRW (Pair with SSDT-PRW.aml)</string>
+					<string>Change Method (GPRW,2,N) to XPRW (SSDT-PRW.aml)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -115,7 +115,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change ECDV to EC (EC device recognition)</string>
+					<string>Change ECDV to EC (EC Device Recognition)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -125,7 +125,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change Method (_PTS,1,N) to ZPTS (Pair with SSDT-PTSWAK.aml)</string>
+					<string>Change Method (_PTS,1,N) to ZPTS (SSDT-PTSWAK.aml)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -135,7 +135,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change Method (_WAK,1,N) to ZWAK (Pair with SSDT-PTSWAK.aml)</string>
+					<string>Change Method (_WAK,1,N) to ZWAK (SSDT-PTSWAK.aml)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -145,7 +145,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change _STA to XSTA in device GPI0 (TouchPad I2C)</string>
+					<string>Change _STA to XSTA in Device GPI0 (TouchPad I2C)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -155,7 +155,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change _CRS to XCRS in device TPD1 (TouchPad I2C)</string>
+					<string>Change _CRS to XCRS in Device TPD1 (TouchPad I2C)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -179,7 +179,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Rename _RMV to XRMV in RP01.PXSX (Use with SSDT-TYPC.aml for USB-C hot plug support)</string>
+					<string>Rename _RMV to XRMV in RP01.PXSX (SSDT-TYPC.aml)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -191,7 +191,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Rename XTBT to YTBT (Use with SSDT-YTBT.aml for USB-C hot plug)</string>
+					<string>Rename XTBT to YTBT (SSDT-YTBT.aml)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -204,12 +204,7 @@
 			<false/>
 		</dict>
 		<key>FixHeaders</key>
-		<true/>
-		<key>RenameDevices</key>
-		<dict>
-			<key>_SB.PCI0.RP05.PXSX</key>
-			<string>ARPT</string>
-		</dict>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -225,7 +220,7 @@
 				<key>PStates</key>
 				<false/>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
 		</dict>
 	</dict>
@@ -265,24 +260,18 @@
 			<key>Inject</key>
 			<string>No</string>
 			<key>ResetHDA</key>
-			<true/>
+			<false/>
 		</dict>
+		<key>LANInjection</key>
+		<false/>
 		<key>NoDefaultProperties</key>
 		<false/>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,3</string>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>layout-id</key>
 				<data>DQAAAA==</data>
-				<key>model</key>
-				<string>Sunrise Point-LP HD Audio</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -393,17 +382,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>03/17/2020</string>
+		<string>10/17/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.2003170152</string>
+		<string>MBP152.88Z.F000.B00.1910172200</string>
 		<key>Board-ID</key>
 		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02038200J9JH4R1M</string>
+		<string>C02929403CDJH4RA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -415,7 +404,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.100.359.0.0</string>
+		<string>1037.40.124.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -428,6 +417,8 @@
 		<string>Apple Inc.</string>
 		<key>Memory</key>
 		<dict>
+			<key>Channels</key>
+			<integer>2</integer>
 			<key>Modules</key>
 			<array>
 				<dict>
@@ -471,9 +462,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02DFVY5JHCC</string>
+		<string>C02Z30DHJHCD</string>
 		<key>SmUUID</key>
-		<string>8C7B633A-C354-4EC7-8772-797051F5E92C</string>
+		<string>1FA2DEC9-D7C9-4624-8FD3-7772BF6FD0FF</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
