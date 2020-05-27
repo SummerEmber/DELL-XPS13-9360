@@ -95,7 +95,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Rename BRT6 to BRTX (SSDT-BRT6.aml, SSDT-PNLF.aml, AppleBacklightInjector.kext, VoodooPS2Controller.kext)</string>
+					<string>Change BRT6 to BRTX (SSDT-BRT6.aml, SSDT-PNLF.aml, AppleBacklightInjector.kext, VoodooPS2Controller.kext)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -179,7 +179,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Rename _RMV to XRMV in RP01.PXSX (SSDT-TYPC.aml)</string>
+					<string>Change _RMV to XRMV in RP01.PXSX (SSDT-TYPC.aml)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -191,7 +191,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Rename XTBT to YTBT (SSDT-YTBT.aml)</string>
+					<string>Change XTBT to YTBT (SSDT-YTBT.aml)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -227,7 +227,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>DefaultVolume</key>
-		<string>macOS</string>
+		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>NoEarlyProgress</key>
@@ -366,17 +366,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>03/17/2020</string>
+		<string>10/17/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.2003170152</string>
+		<string>MBP152.88Z.F000.B00.1910172200</string>
 		<key>Board-ID</key>
 		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02013130CDJH4RCB</string>
+		<string>C02929403CDJH4RA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -388,7 +388,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.100.359.0.0</string>
+		<string>1037.40.124.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -401,6 +401,8 @@
 		<string>Apple Inc.</string>
 		<key>Memory</key>
 		<dict>
+			<key>Channels</key>
+			<integer>2</integer>
 			<key>Modules</key>
 			<array>
 				<dict>
@@ -444,9 +446,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02CHDYKJHCC</string>
+		<string>C02Z30DHJHCD</string>
 		<key>SmUUID</key>
-		<string>DF63C2D3-76A4-4B55-8C9D-0DF8649F4757</string>
+		<string>1FA2DEC9-D7C9-4624-8FD3-7772BF6FD0FF</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
