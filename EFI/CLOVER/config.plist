@@ -362,17 +362,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>04/23/2020</string>
+		<string>05/13/2020</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.2004232118</string>
+		<string>MBP152.88Z.F000.B00.2005132218</string>
 		<key>Board-ID</key>
 		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02853310GUJH4RJA</string>
+		<string>C02818108CDJH4RAD</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -384,7 +384,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.120.79.0.0</string>
+		<string>1037.120.87.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -440,16 +440,14 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02XX4Y4JHCC</string>
+		<string>C02WNQZLJHCC</string>
 		<key>SmUUID</key>
-		<string>B0181073-90AE-4E3B-9611-71BF2FB4A1D5</string>
+		<string>37FDCD04-DB74-4CD0-8AE3-308D0135803E</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>CF3AF82F-AB0B-5C42-8A6A-DA83678B2AA3</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
