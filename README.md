@@ -1,7 +1,7 @@
 # Hackintosh Clover EFI for DELL XPS13 9360
 ```
 Model            DELL XPS13 9360
-CPU              Intel i5-8250U
+CPU              Intel Core i5-8250U
 Memory           8G DDR3L 2133MHz
 Graphics         Intel UHD Graphics 620
 Audio            Realtek ALC256
