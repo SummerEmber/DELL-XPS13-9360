@@ -1,4 +1,4 @@
-# Hackintosh Clover EFI for DELL XPS13 9360
+# Hackintosh Clover & OpenCore EFI for DELL XPS13 9360
 ```
 Model            DELL XPS13 9360
 CPU              Intel Core i5-8250U
