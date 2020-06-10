@@ -763,13 +763,13 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideAuxiliary</key>
-			<false/>
+			<true/>
 			<key>PickerAttributes</key>
 			<integer>0</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Apple</string>
+			<string>Builtin</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -777,7 +777,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -803,7 +803,7 @@
 			<key>AllowNvramReset</key>
 			<true/>
 			<key>AllowSetDefault</key>
-			<false/>
+			<true/>
 			<key>AuthRestart</key>
 			<false/>
 			<key>BlacklistAppleUpdate</key>
@@ -897,7 +897,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF902270QX0000JA</string>
+			<string>FVF948500J90000JC</string>
 			<key>ROM</key>
 			<data>AAAAAAAA</data>
 			<key>SpoofVendor</key>
@@ -905,9 +905,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,4</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFY30ZZL40Y</string>
+			<string>FVFZR9Y4L40Y</string>
 			<key>SystemUUID</key>
-			<string>131E6767-B07E-4CD5-AD38-06083271A170</string>
+			<string>035BAD4E-1DA3-4DED-B71C-AC13EFBE6556</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -926,7 +926,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-53FDB3D8DB8CA971</string>
 			<key>BoardSerialNumber</key>
-			<string>FVF902270QX0000JA</string>
+			<string>FVF948500J90000JC</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -936,7 +936,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>FVFY30ZZL40Y</string>
+			<string>FVFZR9Y4L40Y</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -962,9 +962,9 @@
 			<key>SystemSKUNumber</key>
 			<string>Mac-53FDB3D8DB8CA971</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFY30ZZL40Y</string>
+			<string>FVFZR9Y4L40Y</string>
 			<key>SystemUUID</key>
-			<string>131E6767-B07E-4CD5-AD38-06083271A170</string>
+			<string>035BAD4E-1DA3-4DED-B71C-AC13EFBE6556</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
