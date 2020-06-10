@@ -11,4 +11,5 @@ Monitor          FHD 1920x1080
 BIOS Verison     2.12.0
 macOS Version    Catalina 10.15.5
 Clover Version   5118
+OpenCore Version 0.5.9
 ```
