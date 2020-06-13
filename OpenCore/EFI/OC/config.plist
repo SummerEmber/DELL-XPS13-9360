@@ -981,7 +981,6 @@
 		<array>
 			<string>HFSPlus.efi</string>
 			<string>OpenRuntime.efi</string>
-			<string>OpenUsbKbDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
