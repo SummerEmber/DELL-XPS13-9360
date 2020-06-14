@@ -121,7 +121,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Rename _RMV to XRMV in RP01.PXSX and use with SSDT-TYPC.aml for USB-C hot plug support</string>
+				<string>Rename _RMV to XRMV in RP01.PXSX, use with SSDT-TYPC.aml</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -147,7 +147,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Rename XTBT to YTBT and use with SSDT-YTPC.aml for USB-C hot plug</string>
+				<string>Rename XTBT to YTBT, use with SSDT-TYPC.aml</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
