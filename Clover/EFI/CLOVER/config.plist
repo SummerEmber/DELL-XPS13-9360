@@ -73,27 +73,7 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>Change OSID to XSID</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>T1NJRA==</data>
-					<key>Replace</key>
-					<data>WFNJRA==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change _OSI to XOSI (SSDT-XOSI.aml)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X09TSQ==</data>
-					<key>Replace</key>
-					<data>WE9TSQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change BRT6 to BRTX (SSDT-BRT6.aml, SSDT-PNLF.aml, AppleBacklightInjector.kext, VoodooPS2Controller.kext)</string>
+					<string>Rename BRT6 to BRTX, use with SSDT-BCKM.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -103,7 +83,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change Method (GPRW,2,N) to XPRW (SSDT-PRW.aml)</string>
+					<string>Rename GPRW to XPRW, use with SSDT-GPRW.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -113,83 +93,17 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change ECDV to EC (EC Device Recognition)</string>
+					<string>Rename _RMV to XRMV in RP01.PXSX, use with SSDT-TYPC.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>RUNEVg==</data>
+					<data>FCRfUk1WAA==</data>
 					<key>Replace</key>
-					<data>RUNfXw==</data>
+					<data>FCRYUk1WAA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change Method (_PTS,1,N) to ZPTS (SSDT-PTSWAK.aml)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1BUUwE=</data>
-					<key>Replace</key>
-					<data>WlBUUwE=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change Method (_WAK,1,N) to ZWAK (SSDT-PTSWAK.aml)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1dBSwE=</data>
-					<key>Replace</key>
-					<data>WldBSwE=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change _STA to XSTA in Device GPI0 (TouchPad I2C)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>FB1fU1RBAKAJk1M=</data>
-					<key>Replace</key>
-					<data>FB1YU1RBAKAJk1M=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change _CRS to XCRS in Device TPD1 (TouchPad I2C)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X0NSUw==</data>
-					<key>Replace</key>
-					<data>WENSUw==</data>
-					<key>TgtBridge</key>
-					<data>VFBEMQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change _DSM to XDSM (TPD1/Touchpad I2C)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X0RTTQ==</data>
-					<key>Replace</key>
-					<data>WERTTQ==</data>
-					<key>TgtBridge</key>
-					<data>VFBEMQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change _RMV to XRMV in RP01.PXSX (SSDT-TYPC.aml)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1JNVg==</data>
-					<key>Replace</key>
-					<data>WFJNVg==</data>
-					<key>TgtBridge</key>
-					<data>UlAwMQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change XTBT to YTBT (SSDT-YTBT.aml)</string>
+					<string>Rename XTBT to YTBT, use with SSDT-TYPC.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -366,13 +280,13 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.2005132218</string>
+		<string>MBP154.88Z.F000.B00.2005132135</string>
 		<key>Board-ID</key>
-		<string>Mac-827FB448E656EC26</string>
+		<string>Mac-53FDB3D8DB8CA971</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02818108CDJH4RAD</string>
+		<string>FVF929501J90000JA</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -436,13 +350,13 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x02</string>
+		<string>0x32</string>
 		<key>ProductName</key>
-		<string>MacBookPro15,2</string>
+		<string>MacBookPro15,4</string>
 		<key>SerialNumber</key>
-		<string>C02WNQZLJHCC</string>
+		<string>FVFZ3TYVL40Y</string>
 		<key>SmUUID</key>
-		<string>37FDCD04-DB74-4CD0-8AE3-308D0135803E</string>
+		<string>A79710A7-4FDE-40C0-97D0-525BAA7FFB4F</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
