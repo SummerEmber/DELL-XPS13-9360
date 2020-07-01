@@ -111,6 +111,26 @@
 					<key>Replace</key>
 					<data>pABZVEJU</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename OSID to XSID</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>T1NJRA==</data>
+					<key>Replace</key>
+					<data>WFNJRA==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename _OSI to XOSI</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X09TSQ==</data>
+					<key>Replace</key>
+					<data>WE9TSQ==</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>

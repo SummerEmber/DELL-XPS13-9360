@@ -20,6 +20,14 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
+				<string>SSDT-ALSD.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
 				<string>SSDT-BCKM.aml</string>
 			</dict>
 			<dict>
@@ -28,7 +36,47 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
+				<string>SSDT-DELL.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-DMAC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-EC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
 				<string>SSDT-GPRW.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-MCHC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-MEM2.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -45,6 +93,22 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PMCR.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SBUS.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -123,7 +187,7 @@
 				<key>Comment</key>
 				<string>Rename _RMV to XRMV in RP01.PXSX, use with SSDT-TYPC.aml</string>
 				<key>Count</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -139,7 +203,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>5</integer>
+				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
@@ -162,6 +226,58 @@
 				<data></data>
 				<key>Replace</key>
 				<data>pABZVEJU</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Rename OSID to XSID</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>T1NJRA==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WFNJRA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Rename _OSI to XOSI</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X09TSQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WE9TSQ==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -863,7 +979,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF948500J90000JC</string>
+			<string>FVF943401J90000CB</string>
 			<key>ROM</key>
 			<data>AAAAAAAA</data>
 			<key>SpoofVendor</key>
@@ -871,9 +987,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,4</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFZR9Y4L40Y</string>
+			<string>FVFZLZYAL40Y</string>
 			<key>SystemUUID</key>
-			<string>035BAD4E-1DA3-4DED-B71C-AC13EFBE6556</string>
+			<string>A1B9D3F2-8B96-40A1-B5CA-BD9863905361</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -892,7 +1008,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-53FDB3D8DB8CA971</string>
 			<key>BoardSerialNumber</key>
-			<string>FVF948500J90000JC</string>
+			<string>FVF943401J90000CB</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -902,7 +1018,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>FVFZR9Y4L40Y</string>
+			<string>FVFZLZYAL40Y</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -928,9 +1044,9 @@
 			<key>SystemSKUNumber</key>
 			<string>Mac-53FDB3D8DB8CA971</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFZR9Y4L40Y</string>
+			<string>FVFZLZYAL40Y</string>
 			<key>SystemUUID</key>
-			<string>035BAD4E-1DA3-4DED-B71C-AC13EFBE6556</string>
+			<string>A1B9D3F2-8B96-40A1-B5CA-BD9863905361</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
