@@ -10,6 +10,6 @@ Storage            Intel 760P SSD 512G
 Monitor            FHD 1920x1080
 BIOS Verison       2.13.0
 macOS Version      Catalina 10.15.7
-Clover Version     5122
-OpenCore Version   0.6.2
+Clover Version     5126
+OpenCore Version   0.6.3
 ```
