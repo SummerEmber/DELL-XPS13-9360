@@ -1,4 +1,4 @@
-# Hackintosh Clover & OpenCore EFI for DELL XPS13 9360
+# Hackintosh OpenCore EFI for DELL XPS13 9360
 ```
 Model              DELL XPS13 9360
 CPU                Intel Core i5-8250U
@@ -10,6 +10,5 @@ Storage            Intel 760P SSD 512G
 Monitor            FHD 1920x1080
 BIOS Verison       2.13.0
 macOS Version      Big Sur 11.0.1
-Clover Version     5126
 OpenCore Version   0.6.3
 ```
