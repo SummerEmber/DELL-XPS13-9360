@@ -632,24 +632,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>BT4LEContinuityFixup.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BT4LEContinuityFixup</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -973,7 +955,7 @@
 			<key>DisableRtcChecksum</key>
 			<false/>
 			<key>ExtendBTFeatureFlags</key>
-			<false/>
+			<true/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>ForceSecureBootScheme</key>
@@ -1128,7 +1110,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF908609GU0000CB</string>
+			<string>FVF942401CD0000JA</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>SystemMemoryStatus</key>
@@ -1140,9 +1122,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,4</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFY99ZRL40Y</string>
+			<string>FVFZK4YUL40Y</string>
 			<key>SystemUUID</key>
-			<string>E15B1E8F-E841-4F10-AC00-5D566C5607F6</string>
+			<string>CB85B0DB-F44B-415E-9A23-AC7A119F4F62</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1161,7 +1143,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-53FDB3D8DB8CA971</string>
 			<key>BoardSerialNumber</key>
-			<string>FVF908609GU0000CB</string>
+			<string>FVF942401CD0000JA</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1171,7 +1153,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>FVFY99ZRL40Y</string>
+			<string>FVFZK4YUL40Y</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1195,9 +1177,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFY99ZRL40Y</string>
+			<string>FVFZK4YUL40Y</string>
 			<key>SystemUUID</key>
-			<string>E15B1E8F-E841-4F10-AC00-5D566C5607F6</string>
+			<string>CB85B0DB-F44B-415E-9A23-AC7A119F4F62</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
