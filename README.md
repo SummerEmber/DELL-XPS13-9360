@@ -10,5 +10,5 @@ Storage            Intel 760P SSD 512G
 Monitor            FHD 1920x1080
 BIOS Verison       2.13.0
 macOS Version      Big Sur 11.1
-OpenCore Version   0.6.4
+OpenCore Version   0.6.5
 ```
