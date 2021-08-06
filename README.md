@@ -9,6 +9,6 @@ Wi-Fi              DELL DW1820A
 Storage            Intel 760P SSD 512G
 Monitor            FHD 1920x1080
 BIOS Verison       2.14.2
-macOS Version      Big Sur 11.4
-OpenCore Version   0.7.0
+macOS Version      Big Sur 11.5
+OpenCore Version   0.7.2
 ```
