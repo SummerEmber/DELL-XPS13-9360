@@ -556,6 +556,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>USBPorts.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -610,13 +628,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>BrcmBluetoothInjector.kext</string>
+				<string>BlueToolFixup.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string></string>
+				<string>Contents/MacOS/BlueToolFixup</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -826,24 +844,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>CPUFriend.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -987,7 +987,7 @@
 			<key>DisableRtcChecksum</key>
 			<false/>
 			<key>ExtendBTFeatureFlags</key>
-			<true/>
+			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>ForceSecureBootScheme</key>
@@ -1007,7 +1007,7 @@
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
-			<false/>
+			<true/>
 			<key>XhciPortLimit</key>
 			<false/>
 		</dict>
@@ -1158,7 +1158,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF951102J900001H</string>
+			<string>C02835108QXJH4RJA</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1168,20 +1168,20 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro15,4</string>
+			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFZV0XAL40Y</string>
+			<string>C02X90BLJHCC</string>
 			<key>SystemUUID</key>
-			<string>6FC5C6B9-F736-4C0D-9EEF-388A0D956C99</string>
+			<string>A1EFFA00-5890-4202-A360-A6FD8B79B6FF</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>07/05/2021</string>
+			<string>09/05/2021</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>1715.0.57.0.0</string>
+			<string>1715.40.12.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -1189,27 +1189,27 @@
 			<key>BoardManufacturer</key>
 			<string></string>
 			<key>BoardProduct</key>
-			<string>Mac-53FDB3D8DB8CA971</string>
+			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>FVF951102J900001H</string>
+			<string>C02835108QXJH4RJA</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
-			<string>MacBookPro15,4</string>
+			<string>MacBookPro15,2</string>
 			<key>ChassisAssetTag</key>
 			<string>Asset Tag#</string>
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>FVFZV0XAL40Y</string>
+			<string>C02X90BLJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
-			<string>Mac-53FDB3D8DB8CA971</string>
+			<string>Mac-827FB448E656EC26</string>
 			<key>FirmwareFeatures</key>
-			<data>JvSP/QAAAAA=</data>
+			<data>JvSP/QgAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>P/+f/wAAAAA=</data>
+			<data>P/+f/wgAAAA=</data>
 			<key>PlatformFeature</key>
 			<integer>50</integer>
 			<key>ProcessorType</key>
@@ -1221,13 +1221,13 @@
 			<key>SystemManufacturer</key>
 			<string></string>
 			<key>SystemProductName</key>
-			<string>MacBookPro15,4</string>
+			<string>MacBookPro15,2</string>
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFZV0XAL40Y</string>
+			<string>C02X90BLJHCC</string>
 			<key>SystemUUID</key>
-			<string>6FC5C6B9-F736-4C0D-9EEF-388A0D956C99</string>
+			<string>A1EFFA00-5890-4202-A360-A6FD8B79B6FF</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1304,6 +1304,8 @@
 			<dict>
 				<key>Arguments</key>
 				<string></string>
+				<key>Comment</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -1311,6 +1313,8 @@
 			</dict>
 			<dict>
 				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
