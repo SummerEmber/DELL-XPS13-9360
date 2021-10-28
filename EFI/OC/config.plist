@@ -430,13 +430,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VirtualSMC.kext</string>
+				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VirtualSMC</string>
+				<string>Contents/MacOS/WhateverGreen</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -448,13 +448,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
+				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
+				<string>Contents/MacOS/VirtualSMC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -650,7 +650,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/BrcmFirmwareData</string>
 				<key>MaxKernel</key>
@@ -668,7 +668,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/BrcmPatchRAM3</string>
 				<key>MaxKernel</key>
@@ -1158,7 +1158,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02835108QXJH4RJA</string>
+			<string>C02802701QXJH4RAD</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1170,9 +1170,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02X90BLJHCC</string>
+			<string>C02W3WZJJHCC</string>
 			<key>SystemUUID</key>
-			<string>A1EFFA00-5890-4202-A360-A6FD8B79B6FF</string>
+			<string>CFDD0B02-CBDE-436C-A4E9-E1FD2AE2A47E</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1191,7 +1191,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02835108QXJH4RJA</string>
+			<string>C02802701QXJH4RAD</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1201,7 +1201,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02X90BLJHCC</string>
+			<string>C02W3WZJJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1225,9 +1225,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02X90BLJHCC</string>
+			<string>C02W3WZJJHCC</string>
 			<key>SystemUUID</key>
-			<string>A1EFFA00-5890-4202-A360-A6FD8B79B6FF</string>
+			<string>CFDD0B02-CBDE-436C-A4E9-E1FD2AE2A47E</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
