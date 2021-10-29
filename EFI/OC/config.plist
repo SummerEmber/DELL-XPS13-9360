@@ -1127,7 +1127,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>darkwake=4</string>
+				<string></string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1158,7 +1158,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02802701QXJH4RAD</string>
+			<string>C02836301CDJH4R1F</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1170,9 +1170,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02W3WZJJHCC</string>
+			<string>C02XCRZPJHCC</string>
 			<key>SystemUUID</key>
-			<string>CFDD0B02-CBDE-436C-A4E9-E1FD2AE2A47E</string>
+			<string>4DD5EAF2-2C49-4C2A-B2CD-1BA741B077BB</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1191,7 +1191,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02802701QXJH4RAD</string>
+			<string>C02836301CDJH4R1F</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1201,7 +1201,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02W3WZJJHCC</string>
+			<string>C02XCRZPJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1225,9 +1225,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02W3WZJJHCC</string>
+			<string>C02XCRZPJHCC</string>
 			<key>SystemUUID</key>
-			<string>CFDD0B02-CBDE-436C-A4E9-E1FD2AE2A47E</string>
+			<string>4DD5EAF2-2C49-4C2A-B2CD-1BA741B077BB</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
