@@ -912,6 +912,24 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>HibernationFixup.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/HibernationFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -1122,7 +1140,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02836301CDJH4R1F</string>
+			<string>C028358024NJH4RUE</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1134,18 +1152,18 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XCRZPJHCC</string>
+			<string>C02X9TZVJHCC</string>
 			<key>SystemUUID</key>
-			<string>4DD5EAF2-2C49-4C2A-B2CD-1BA741B077BB</string>
+			<string>93082DA5-7D66-4971-8551-A7B16A433679</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>09/05/2021</string>
+			<string>10/03/2021</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>1715.40.12.0.0</string>
+			<string>1715.40.15.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -1155,7 +1173,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02836301CDJH4R1F</string>
+			<string>C028358024NJH4RUE</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1165,7 +1183,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02XCRZPJHCC</string>
+			<string>C02X9TZVJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1189,9 +1207,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XCRZPJHCC</string>
+			<string>C02X9TZVJHCC</string>
 			<key>SystemUUID</key>
-			<string>4DD5EAF2-2C49-4C2A-B2CD-1BA741B077BB</string>
+			<string>93082DA5-7D66-4971-8551-A7B16A433679</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
