@@ -430,13 +430,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
+				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
+				<string>Contents/MacOS/VirtualSMC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -448,13 +448,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VirtualSMC.kext</string>
+				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VirtualSMC</string>
+				<string>Contents/MacOS/WhateverGreen</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1078,7 +1078,7 @@
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>6</integer>
+			<integer>7</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
@@ -1140,7 +1140,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C028358024NJH4RUE</string>
+			<string>C02811300GUJH4RAD</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1152,9 +1152,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02X9TZVJHCC</string>
+			<string>C02WFQZUJHCC</string>
 			<key>SystemUUID</key>
-			<string>93082DA5-7D66-4971-8551-A7B16A433679</string>
+			<string>4E244607-2B0E-4F4E-B948-0204F2FA738F</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1173,7 +1173,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C028358024NJH4RUE</string>
+			<string>C02811300GUJH4RAD</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1183,7 +1183,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02X9TZVJHCC</string>
+			<string>C02WFQZUJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1207,9 +1207,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02X9TZVJHCC</string>
+			<string>C02WFQZUJHCC</string>
 			<key>SystemUUID</key>
-			<string>93082DA5-7D66-4971-8551-A7B16A433679</string>
+			<string>4E244607-2B0E-4F4E-B948-0204F2FA738F</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1220,7 +1220,7 @@
 		<key>UpdateSMBIOS</key>
 		<true/>
 		<key>UpdateSMBIOSMode</key>
-		<string>Custom</string>
+		<string>Auto</string>
 		<key>UseRawUuidEncoding</key>
 		<false/>
 	</dict>
