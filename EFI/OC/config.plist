@@ -1124,7 +1124,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02847102GUJH4RFB</string>
+			<string>C02853403QXJH4R8C</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1136,18 +1136,18 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XQLZPJHCC</string>
+			<string>C02XXLZHJHCC</string>
 			<key>SystemUUID</key>
-			<string>AB29C012-7479-451D-8181-7224193F728C</string>
+			<string>F5675BF0-84D5-4BC8-8747-4AF4F4B1CCE2</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>09/05/2021</string>
+			<string>10/03/2021</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>1715.40.12.0.0</string>
+			<string>1715.40.15.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -1157,7 +1157,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02847102GUJH4RFB</string>
+			<string>C02853403QXJH4R8C</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1167,7 +1167,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02XQLZPJHCC</string>
+			<string>C02XXLZHJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1191,9 +1191,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XQLZPJHCC</string>
+			<string>C02XXLZHJHCC</string>
 			<key>SystemUUID</key>
-			<string>AB29C012-7479-451D-8181-7224193F728C</string>
+			<string>F5675BF0-84D5-4BC8-8747-4AF4F4B1CCE2</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
