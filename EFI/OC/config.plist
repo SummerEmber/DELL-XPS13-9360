@@ -946,11 +946,11 @@
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PickerVariant</key>
 			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
@@ -1060,7 +1060,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02816310QXJH4RJC</string>
+			<string>C02809100GUJH4RFB</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1072,9 +1072,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02WL03LJHCC</string>
+			<string>C02WCNY5JHCC</string>
 			<key>SystemUUID</key>
-			<string>F68C81D9-506D-498D-A0EA-682A0BE96D5A</string>
+			<string>6E37D5C6-BD39-48E0-B0EF-B7752B10F182</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1093,7 +1093,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02816310QXJH4RJC</string>
+			<string>C02809100GUJH4RFB</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1103,7 +1103,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02WL03LJHCC</string>
+			<string>C02WCNY5JHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1127,9 +1127,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02WL03LJHCC</string>
+			<string>C02WCNY5JHCC</string>
 			<key>SystemUUID</key>
-			<string>F68C81D9-506D-498D-A0EA-682A0BE96D5A</string>
+			<string>6E37D5C6-BD39-48E0-B0EF-B7752B10F182</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1222,6 +1222,16 @@
 				<true/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenCanopy.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
