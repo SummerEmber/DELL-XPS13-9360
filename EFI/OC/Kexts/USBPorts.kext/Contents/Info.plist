@@ -22,7 +22,7 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>MacBookPro15,4-TBTU</key>
+		<key>MacBookPro15,2-TBTU</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
@@ -41,28 +41,17 @@
 				<key>kUSBSleepPortCurrentLimit</key>
 				<integer>2100</integer>
 				<key>kUSBSleepPowerSupply</key>
-				<integer>5100</integer>
+				<integer>2600</integer>
 				<key>kUSBWakePortCurrentLimit</key>
 				<integer>2100</integer>
 				<key>kUSBWakePowerSupply</key>
-				<integer>5100</integer>
+				<integer>3200</integer>
 				<key>port-count</key>
 				<data>
 				AwAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
-					<key>UB21</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>name</key>
-						<string>UB21</string>
-						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-					</dict>
 					<key>UB31</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -77,9 +66,9 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>MacBookPro15,4</string>
+			<string>MacBookPro15,2</string>
 		</dict>
-		<key>MacBookPro15,4-XHC</key>
+		<key>MacBookPro15,2-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
@@ -98,11 +87,11 @@
 				<key>kUSBSleepPortCurrentLimit</key>
 				<integer>2100</integer>
 				<key>kUSBSleepPowerSupply</key>
-				<integer>5100</integer>
+				<integer>2600</integer>
 				<key>kUSBWakePortCurrentLimit</key>
 				<integer>2100</integer>
 				<key>kUSBWakePowerSupply</key>
-				<integer>5100</integer>
+				<integer>3200</integer>
 				<key>port-count</key>
 				<data>
 				DgAAAA==
@@ -120,28 +109,6 @@
 						AQAAAA==
 						</data>
 					</dict>
-					<key>HS02</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>HS02</string>
-						<key>port</key>
-						<data>
-						AgAAAA==
-						</data>
-					</dict>
-					<key>HS03</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>HS03</string>
-						<key>port</key>
-						<data>
-						AwAAAA==
-						</data>
-					</dict>
 					<key>HS05</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -151,6 +118,28 @@
 						<key>port</key>
 						<data>
 						BQAAAA==
+						</data>
+					</dict>
+					<key>HSP2</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>HSP2</string>
+						<key>port</key>
+						<data>
+						AgAAAA==
+						</data>
+					</dict>
+					<key>HSP3</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HSP3</string>
+						<key>port</key>
+						<data>
+						AwAAAA==
 						</data>
 					</dict>
 					<key>SS01</key>
@@ -178,7 +167,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>MacBookPro15,4</string>
+			<string>MacBookPro15,2</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>

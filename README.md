@@ -8,7 +8,7 @@ Audio              Realtek ALC256
 Wi-Fi              DELL DW1560 (DW1820A doesn't support macOS 12.1)
 Storage            Intel 760P SSD 512G
 Monitor            FHD 1920x1080
-BIOS Verison       2.18.0
-macOS Version      Monterey 12.1
+BIOS Verison       2.19.0
+macOS Version      Monterey 12.2
 OpenCore Version   0.7.7
 ```
