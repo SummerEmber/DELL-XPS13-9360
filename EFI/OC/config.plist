@@ -236,6 +236,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>EnableForAll</key>
+			<false/>
 			<key>FadtEnableReset</key>
 			<false/>
 			<key>NormalizeHeaders</key>
@@ -269,6 +271,8 @@
 			<key>DisableVariableWrite</key>
 			<false/>
 			<key>DiscardHibernateMap</key>
+			<false/>
+			<key>EnableForAll</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
 			<true/>
@@ -979,6 +983,8 @@
 			<false/>
 			<key>ShowPicker</key>
 			<true/>
+			<key>SkipCustomEntryCheck</key>
+			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
@@ -1007,11 +1013,7 @@
 		<array/>
 		<key>Security</key>
 		<dict>
-			<key>AllowNvramReset</key>
-			<true/>
 			<key>AllowSetDefault</key>
-			<false/>
-			<key>AllowToggleSip</key>
 			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
@@ -1094,14 +1096,12 @@
 		</dict>
 		<key>Delete</key>
 		<dict/>
-		<key>LegacyEnable</key>
-		<false/>
 		<key>LegacyOverwrite</key>
+		<false/>
+		<key>WriteFlash</key>
 		<false/>
 		<key>LegacySchema</key>
 		<dict/>
-		<key>WriteFlash</key>
-		<false/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -1116,7 +1116,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02815104QXJH4R8C</string>
+			<string>C02846130GUJH4R1F</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1128,18 +1128,18 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02WKCZBJHCC</string>
+			<string>C02XPKYWJHCC</string>
 			<key>SystemUUID</key>
-			<string>82E59E7C-0025-4D43-AF90-F6D8BBB87C12</string>
+			<string>C9EFFD9C-A808-4F5B-82FB-94334683B03D</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>02/15/2022</string>
+			<string>08/29/2022</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>1731.100.130.0.0</string>
+			<string>1916.40.2.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -1149,7 +1149,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02815104QXJH4R8C</string>
+			<string>C02846130GUJH4R1F</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1159,7 +1159,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02WKCZBJHCC</string>
+			<string>C02XPKYWJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1183,9 +1183,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02WKCZBJHCC</string>
+			<string>C02XPKYWJHCC</string>
 			<key>SystemUUID</key>
-			<string>82E59E7C-0025-4D43-AF90-F6D8BBB87C12</string>
+			<string>C9EFFD9C-A808-4F5B-82FB-94334683B03D</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1276,6 +1276,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenHfsPlus.efi</string>
 			</dict>
@@ -1286,6 +1288,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
@@ -1296,6 +1300,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
 			</dict>
