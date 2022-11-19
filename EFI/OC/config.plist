@@ -1116,7 +1116,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02846130GUJH4R1F</string>
+			<string>C02824501GUJH4RJA</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1128,9 +1128,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XPKYWJHCC</string>
+			<string>C02WVDZUJHCC</string>
 			<key>SystemUUID</key>
-			<string>C9EFFD9C-A808-4F5B-82FB-94334683B03D</string>
+			<string>BC566EAF-A4EE-493A-88E7-01B1CB245BC1</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1149,7 +1149,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02846130GUJH4R1F</string>
+			<string>C02824501GUJH4RJA</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1159,7 +1159,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02XPKYWJHCC</string>
+			<string>C02WVDZUJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1183,9 +1183,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XPKYWJHCC</string>
+			<string>C02WVDZUJHCC</string>
 			<key>SystemUUID</key>
-			<string>C9EFFD9C-A808-4F5B-82FB-94334683B03D</string>
+			<string>BC566EAF-A4EE-493A-88E7-01B1CB245BC1</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1229,6 +1229,12 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>PointerDwellClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellDoubleClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellRadius</key>
+			<integer>0</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
 			<key>PointerPollMin</key>
