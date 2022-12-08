@@ -1116,7 +1116,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02824501GUJH4RJA</string>
+			<string>C02833405QXJH4R8C</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1128,18 +1128,18 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02WVDZUJHCC</string>
+			<string>C02X702EJHCC</string>
 			<key>SystemUUID</key>
-			<string>BC566EAF-A4EE-493A-88E7-01B1CB245BC1</string>
+			<string>AA8D521E-9BDD-48DE-9AD7-E1F941D6CFAE</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>08/29/2022</string>
+			<string>09/29/2022</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>1916.40.2.0.0</string>
+			<string>1916.40.8.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -1149,7 +1149,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02824501GUJH4RJA</string>
+			<string>C02833405QXJH4R8C</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1159,7 +1159,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02WVDZUJHCC</string>
+			<string>C02X702EJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1183,9 +1183,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02WVDZUJHCC</string>
+			<string>C02X702EJHCC</string>
 			<key>SystemUUID</key>
-			<string>BC566EAF-A4EE-493A-88E7-01B1CB245BC1</string>
+			<string>AA8D521E-9BDD-48DE-9AD7-E1F941D6CFAE</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1310,6 +1310,30 @@
 				<false/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>ResetNvramEntry.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>ToggleSipEntry.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
