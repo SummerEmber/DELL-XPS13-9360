@@ -236,8 +236,6 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
-			<key>EnableForAll</key>
-			<false/>
 			<key>FadtEnableReset</key>
 			<false/>
 			<key>NormalizeHeaders</key>
@@ -271,8 +269,6 @@
 			<key>DisableVariableWrite</key>
 			<false/>
 			<key>DiscardHibernateMap</key>
-			<false/>
-			<key>EnableForAll</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
 			<true/>
@@ -965,6 +961,8 @@
 			<integer>0</integer>
 			<key>HibernateMode</key>
 			<string>None</string>
+			<key>HibernateSkipsPicker</key>
+			<true/>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
@@ -982,8 +980,6 @@
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
-			<true/>
-			<key>SkipCustomEntryCheck</key>
 			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
@@ -1116,7 +1112,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02833405QXJH4R8C</string>
+			<string>C02813207QXJH4RA8</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1128,9 +1124,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02X702EJHCC</string>
+			<string>C02WHYYFJHCC</string>
 			<key>SystemUUID</key>
-			<string>AA8D521E-9BDD-48DE-9AD7-E1F941D6CFAE</string>
+			<string>DDDB5C0B-7DDB-44A7-8158-A1C9C7CFABEE</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1149,7 +1145,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02833405QXJH4R8C</string>
+			<string>C02813207QXJH4RA8</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1159,7 +1155,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02X702EJHCC</string>
+			<string>C02WHYYFJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1183,9 +1179,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02X702EJHCC</string>
+			<string>C02WHYYFJHCC</string>
 			<key>SystemUUID</key>
-			<string>AA8D521E-9BDD-48DE-9AD7-E1F941D6CFAE</string>
+			<string>DDDB5C0B-7DDB-44A7-8158-A1C9C7CFABEE</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
