@@ -274,6 +274,8 @@
 			<true/>
 			<key>EnableWriteUnprotector</key>
 			<true/>
+			<key>FixupAppleEfiImages</key>
+			<false/>
 			<key>ForceBooterSignature</key>
 			<false/>
 			<key>ForceExitBootServices</key>
@@ -1116,7 +1118,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02820401J9JH4RFB</string>
+			<string>C02826501GUJH4R1M</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1128,9 +1130,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02WQ0YTJHCC</string>
+			<string>C02WXUZJJHCC</string>
 			<key>SystemUUID</key>
-			<string>9FF66C7C-4430-49B8-AB28-6F902BD93500</string>
+			<string>D643AFFE-FE9D-49AA-A546-87F849C29F92</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1149,7 +1151,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02820401J9JH4RFB</string>
+			<string>C02826501GUJH4R1M</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1159,7 +1161,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02WQ0YTJHCC</string>
+			<string>C02WXUZJJHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1183,9 +1185,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02WQ0YTJHCC</string>
+			<string>C02WXUZJJHCC</string>
 			<key>SystemUUID</key>
-			<string>9FF66C7C-4430-49B8-AB28-6F902BD93500</string>
+			<string>D643AFFE-FE9D-49AA-A546-87F849C29F92</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1462,6 +1464,8 @@
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
 			<key>ResizeUsePciRbIo</key>
+			<false/>
+			<key>ShimRetainProtocol</key>
 			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
