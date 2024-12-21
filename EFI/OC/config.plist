@@ -1118,7 +1118,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02844104QXJH4R8C</string>
+			<string>C02827300GUJH4R1M</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
@@ -1130,9 +1130,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XM03BJHCC</string>
+			<string>C02X10E5JHCC</string>
 			<key>SystemUUID</key>
-			<string>34D39FA0-DA68-465D-8462-2F54EC85B6CA</string>
+			<string>6848BF5D-1D0A-4A5A-A058-7049A7CF01B3</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1151,7 +1151,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-827FB448E656EC26</string>
 			<key>BoardSerialNumber</key>
-			<string>C02844104QXJH4R8C</string>
+			<string>C02827300GUJH4R1M</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1161,7 +1161,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02XM03BJHCC</string>
+			<string>C02X10E5JHCC</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1185,9 +1185,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XM03BJHCC</string>
+			<string>C02X10E5JHCC</string>
 			<key>SystemUUID</key>
-			<string>34D39FA0-DA68-465D-8462-2F54EC85B6CA</string>
+			<string>6848BF5D-1D0A-4A5A-A058-7049A7CF01B3</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -1473,6 +1473,8 @@
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
+		<array/>
+		<key>Unload</key>
 		<array/>
 	</dict>
 </dict>

@@ -9,6 +9,6 @@ Wi-Fi              DELL DW1560
 Storage            Intel 760P SSD 512G
 Monitor            FHD 1920x1080
 BIOS Verison       2.21.0
-macOS Version      Ventura 13.6.7
-OpenCore Version   0.1.0
+macOS Version      Ventura 13.7.2
+OpenCore Version   1.0.3
 ```
